@@ -8,6 +8,6 @@ Please file any questions, concerns, or enhancement requessts in this repo.
 
 ### The controlling repos
 
-https://github.com/MattUebel/git-good-splunk-shcdeployer
-https://github.com/MattUebel/git-good-splunk-deploymentserver
-https://github.com/MattUebel/git-good-splunk-indexmanager
+https://github.com/MattUebel/git-good-splunk-shcdeployer  
+https://github.com/MattUebel/git-good-splunk-deploymentserver  
+https://github.com/MattUebel/git-good-splunk-indexmanager  
