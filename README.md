@@ -15,4 +15,5 @@ https://github.com/MattUebel/git-good-splunk-indexmanager
 ### 🙇‍♂️ Appreciation
 
 Thanks to [Marco Stadler](https://github.com/splunkenizer) and their work with https://github.com/splunkenizer/Splunkenizer with was used to setup the demo environment.  
-Also kudos to [Peter Evans](https://github.com/peter-evans) for their incredibly useful comment manipulating [actions](https://github.com/marketplace/actions/create-or-update-comment).
+Also kudos to [Peter Evans](https://github.com/peter-evans) for their incredibly useful comment manipulating [actions](https://github.com/marketplace/actions/create-or-update-comment).  
+Finally, thank you [Splunk Community](https://community.splunk.com/t5/Community/ct-p/en-us)!
