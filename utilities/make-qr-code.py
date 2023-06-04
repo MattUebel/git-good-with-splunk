@@ -10,6 +10,12 @@ parser.add_argument('url', type=str, help='the URL to encode')
 parser.add_argument('image', type=str, help='the filename of the image to embed')
 parser.add_argument('output', type=str, help='the filename to save the QR code image as')
 parser.add_argument('label', type=str, help='the label to add at the bottom of the QR code')
+parser.add_argument('--font', 
+                    type=str, 
+                    default='/Library/Fonts/Roboto-Regular.ttf', 
+                    help='''The font to use for the label.
+                    Must be a valid path to a .ttf file.
+                    If not specified, will default to /Library/Fonts/Roboto-Regular.ttf''')
 args = parser.parse_args()
 
 # Resize the embedded image
@@ -34,7 +40,7 @@ base = qrcode_image.convert('RGBA')  # Convert qr code to RGBA to ensure compati
 txt = Image.new('RGBA', base.size, (255, 255, 255, 0))  # Create a blank image with the same size
 
 # Choose a font type and size
-fnt = ImageFont.truetype('/Library/Fonts/Roboto-Regular.ttf', 30)
+fnt = ImageFont.truetype(args.font, 30)
 d = ImageDraw.Draw(txt)
 
 # Calculate width and height of the text to center it
