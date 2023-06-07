@@ -24,4 +24,6 @@ Finally, thank you [Splunk Community](https://community.splunk.com/t5/Community/
 These helped shape the talk:  
 [How do you maintain your splunk config?](https://community.splunk.com/t5/Splunk-Enterprise/How-do-you-maintain-your-splunk-config/m-p/590893)  
 [Script to lint and validate?](https://community.splunk.com/t5/Splunk-Enterprise/Is-there-any-script-to-lint-and-validate-splunk-config/m-p/594155)  
-[What is bad config](https://community.splunk.com/t5/Splunk-Enterprise/What-kind-of-things-do-you-view-as-quot-bad-config-quot/m-p/594914)  
+[What is bad config](https://community.splunk.com/t5/Splunk-Enterprise/What-kind-of-things-do-you-view-as-quot-bad-config-quot/m-p/594914) 
+
+foo
